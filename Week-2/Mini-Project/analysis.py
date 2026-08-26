@@ -45,7 +45,6 @@ print(df.isnull().sum())
 print("\nDuplicate rows:")
 print(df.duplicated().sum())
 
-
 # ==========================================
 # ANALYSIS
 # ==========================================

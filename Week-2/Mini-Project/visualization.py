@@ -7,7 +7,6 @@ df = pd.read_csv("Week-2\Data_Analysis\dataset.csv")
 df = df.drop_duplicates()
 df = df.dropna()
 
-
 # ==========================================
 # 1. BAR CHART
 # ==========================================
