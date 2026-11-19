@@ -1,0 +1,7 @@
+
+user_id,name,skills,interests,experience_level,career_goal
+1,Alex,Python|Pandas,AI|Data Science,Beginner,AI Engineer
+2,Sarah,HTML|CSS,Web Development,Beginner,Frontend Developer
+3,John,Python|Statistics,Data Science,Intermediate,Data Scientist
+4,Emma,Python|SQL,Data Science|AI,Intermediate,Data Analyst
+5,David,Java|Programming,Software Development,Beginner,Software Engineer

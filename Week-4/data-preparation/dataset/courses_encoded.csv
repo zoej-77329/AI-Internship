@@ -1,0 +1,11 @@
+course_id,course_name,skills,level,duration_hours,category_AI,category_Data Science,category_Database,category_Programming,category_Web Development
+1,Python Fundamentals,Python|Programming,Beginner,10,0,0,0,1,0
+2,Data Analysis,Python|Pandas|NumPy,Beginner,15,0,1,0,0,0
+3,Machine Learning,Python|Statistics|ML,Intermediate,25,1,0,0,0,0
+4,Deep Learning,Python|Neural Networks|ML,Advanced,30,1,0,0,0,0
+5,Web Development,HTML|CSS|JavaScript,Beginner,20,0,0,0,0,1
+6,Data Visualization,Python|Matplotlib|Seaborn,Intermediate,12,0,1,0,0,0
+7,SQL Fundamentals,SQL|Database,Beginner,8,0,0,1,0,0
+8,Computer Vision,Python|OpenCV|Deep Learning,Advanced,28,1,0,0,0,0
+9,Flask Development,Python|Flask|API,Intermediate,18,0,0,0,0,1
+10,Statistics for Data Science,Statistics|Probability,Beginner,12,0,1,0,0,0
