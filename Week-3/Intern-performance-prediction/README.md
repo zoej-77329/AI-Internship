@@ -114,7 +114,7 @@ XGBoost achieved better results across all four evaluation metrics on the test d
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/zoej-77329/AI-Internship.git
 ```
 
 Navigate to the project folder:
