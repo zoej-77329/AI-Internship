@@ -1,9 +1,12 @@
-from src.data_loader import load_career_skills, load_courses
+from src.data_loader import (
+    load_processed_courses,
+    load_processed_career_skills
+)
 from src.utils import normalize_skill_list
 
 def get_career_requirements(career_goal):
 
-    careers = load_career_skills()
+    careers = load_processed_career_skills()
 
     career = careers[
         careers["career_goal"].str.casefold()
@@ -48,7 +51,7 @@ def analyze_skills(user_skills, required_skills):
 
 def identify_uncovered_skills(missing_skills):
 
-    courses = load_courses()
+    courses = load_processed_courses()
 
     available_skills = set()
 
