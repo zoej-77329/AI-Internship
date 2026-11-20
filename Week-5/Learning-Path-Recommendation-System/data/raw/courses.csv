@@ -1,0 +1,32 @@
+
+course_id,course_name,description,skills,level,category,duration_hours,prerequisites
+1,Python Fundamentals,Learn Python programming basics and syntax,Python|Programming,Beginner,Programming,10,
+2,Advanced Python,Learn functions modules and object oriented programming,Python|OOP|Programming,Intermediate,Programming,15,Python
+3,Data Analysis with Pandas,Learn data manipulation and analysis using Pandas,Python|Pandas|NumPy,Beginner,Data Science,15,Python
+4,Statistics for Data Science,Learn probability statistics and statistical analysis,Statistics|Probability,Beginner,Data Science,12,
+5,Machine Learning Fundamentals,Learn machine learning algorithms and model training,Python|Statistics|Machine Learning,Intermediate,AI,25,Python|Statistics
+6,Deep Learning,Learn neural networks and deep learning techniques,Deep Learning|Neural Networks|Python,Advanced,AI,30,Machine Learning
+7,Data Visualization,Learn data visualization with Matplotlib and Seaborn,Python|Matplotlib|Seaborn,Intermediate,Data Science,12,Python
+8,SQL Fundamentals,Learn SQL queries and relational databases,SQL|Database,Beginner,Database,8,
+9,Advanced SQL,Learn joins subqueries and database optimization,SQL|Database,Intermediate,Database,12,SQL
+10,HTML and CSS,Learn webpage structure and styling,HTML|CSS,Beginner,Web Development,10,
+11,JavaScript Fundamentals,Learn JavaScript programming and browser interaction,JavaScript|Programming,Beginner,Web Development,15,
+12,React Development,Build frontend applications using React,React|JavaScript|HTML|CSS,Intermediate,Web Development,20,JavaScript|HTML|CSS
+13,Flask Development,Build backend applications using Flask and REST APIs,Python|Flask|API,Intermediate,Web Development,18,Python
+14,REST API Development,Learn API design and backend communication,API|HTTP|Backend,Intermediate,Backend Development,15,Programming
+15,Flutter Fundamentals,Learn mobile application development with Flutter and Dart,Flutter|Dart,Beginner,Mobile Development,15,
+16,Advanced Flutter,Build advanced Flutter applications and manage application state,Flutter|Dart|State Management,Intermediate,Mobile Development,20,Flutter|Dart
+17,Firebase for Flutter,Integrate Firebase authentication and database into Flutter apps,Firebase|Flutter|Authentication|Database,Intermediate,Mobile Development,12,Flutter
+18,Git and GitHub,Learn version control and collaborative development,Git|GitHub,Beginner,Software Development,6,
+19,Software Testing,Learn software testing techniques and test cases,Testing|Quality Assurance,Beginner,Software Testing,10,
+20,Computer Vision,Learn image processing and computer vision using OpenCV,Python|OpenCV|Computer Vision,Intermediate,AI,22,Python
+21,Natural Language Processing,Learn text processing and natural language techniques,Python|NLP|Machine Learning,Intermediate,AI,25,Python|Machine Learning
+22,Cloud Computing Fundamentals,Understand cloud infrastructure and deployment,Cloud Computing|AWS,Beginner,Cloud Computing,12,
+23,Docker Fundamentals,Learn containerization using Docker,Docker|Containers|DevOps,Beginner,DevOps,10,
+24,CI CD with GitHub Actions,Automate software testing and deployment using CI CD,GitHub Actions|CI CD|DevOps,Intermediate,DevOps,12,Git|GitHub
+25,Data Cleaning with Pandas,Learn data cleaning and preprocessing using Pandas,Python|Pandas|Data Cleaning,Beginner,Data Science,10,Python
+26,NumPy Fundamentals,Learn numerical computing using NumPy,Python|NumPy,Beginner,Data Science,8,Python
+27,Machine Learning Model Evaluation,Learn model evaluation metrics and validation,Machine Learning|Statistics|Model Evaluation,Intermediate,AI,15,Machine Learning|Statistics
+28,Introduction to Cybersecurity,Learn cybersecurity fundamentals and security principles,Cybersecurity|Networking|Security,Beginner,Cybersecurity,15,
+29,Networking Fundamentals,Learn computer networking concepts and protocols,Networking|TCP IP|Protocols,Beginner,Networking,12,
+30,Agile Project Management,Learn agile methodology and project planning,Agile|Project Management,Beginner,Software Development,8,

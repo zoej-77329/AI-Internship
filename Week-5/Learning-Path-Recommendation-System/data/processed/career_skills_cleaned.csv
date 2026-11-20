@@ -1,0 +1,11 @@
+career_goal,description,required_skills
+AI Engineer,Develop AI based applications and intelligent systems,Python|Statistics|Machine Learning|Deep Learning|API
+Data Scientist,Analyze data and build predictive models,Python|Pandas|NumPy|Statistics|Machine Learning|Data Visualization
+Data Analyst,Analyze business data and prepare reports,Python|SQL|Pandas|Data Visualization|Statistics
+Machine Learning Engineer,Develop and deploy machine learning models,Python|Statistics|Machine Learning|Deep Learning|API|Docker
+Frontend Developer,Build responsive and interactive user interfaces,HTML|CSS|JavaScript|React
+Backend Developer,Develop server side applications and APIs,Python|SQL|Flask|API|Database
+Flutter Developer,Develop cross platform mobile applications,Flutter|Dart|Firebase|API|State Management
+Full Stack Developer,Develop complete frontend and backend applications,HTML|CSS|JavaScript|React|Python|SQL|API
+Cybersecurity Analyst,Monitor systems and identify security threats,Cybersecurity|Networking|Security|TCP IP
+Software Engineer,Design develop test and maintain software,Programming|Git|GitHub|Testing|OOP
