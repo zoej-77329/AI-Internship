@@ -43,8 +43,30 @@ def display_profile_form():
     )
 
     available_skills = get_available_skills()
+    saved_profile = st.session_state.get("user_profile", {})
 
-    st.subheader("Create Your Learning Profile")
+    selected_career = saved_profile.get("career_goal")
+    selected_experience = saved_profile.get("experience_level")
+
+    career_index = (
+        career_goals.index(selected_career)
+        if selected_career in career_goals
+        else 0
+    )
+
+    experience_options = [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+    ]
+
+    experience_index = (
+        experience_options.index(selected_experience)
+        if selected_experience in experience_options
+        else 0
+    )
+
+    st.markdown("## Create Your Learning Profile")
 
     st.write(
         "Enter your current information to get personalized "
@@ -55,27 +77,29 @@ def display_profile_form():
 
         name = st.text_input(
             "Full Name",
+            value=saved_profile.get("name", ""),
             placeholder="Enter your name"
         )
 
         career_goal = st.selectbox(
             "Career Goal",
-            career_goals
+            career_goals,
+            index=career_index
         )
 
         current_skills = st.multiselect(
             "Your Current Skills",
             options=available_skills,
-            help="Select the skills you already know."
+            default=[
+                skill for skill in saved_profile.get("current_skills", [])
+                if skill in available_skills
+            ]
         )
 
         experience_level = st.selectbox(
             "Experience Level",
-            [
-                "Beginner",
-                "Intermediate",
-                "Advanced"
-            ]
+            experience_options,
+            index=experience_index
         )
 
         submitted = st.form_submit_button(
@@ -98,6 +122,10 @@ def display_profile_form():
                 }
 
                 st.session_state["user_profile"] = profile
+
+                # Clear previous recommendation results
+                st.session_state.pop("recommendation_result", None)
+                st.session_state.pop("recommendation_key", None)
 
                 st.success("Your profile has been saved successfully!")
 
