@@ -53,6 +53,7 @@ CANONICAL_SKILLS = {
 
 
 def normalize_skill(skill):
+
     skill = str(skill).strip()
 
     if not skill:
@@ -62,10 +63,12 @@ def normalize_skill(skill):
 
 
 def normalize_skill_list(skills):
+
     normalized_skills = []
     seen = set()
 
     for skill in skills:
+
         normalized = normalize_skill(skill)
 
         if normalized and normalized.casefold() not in seen:
