@@ -1,4 +1,4 @@
-# Day 5 – Mini Learning Path Recommendation System
+# – Mini Learning Path Recommendation System
 
 ## Objective
 Develop a small recommendation system by combining the concepts learned during the first four days of Week 4.
