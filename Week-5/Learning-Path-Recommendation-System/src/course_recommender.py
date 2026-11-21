@@ -1,5 +1,3 @@
-import pandas as pd
-
 from src.skill_analyzer import generate_skill_gap_report
 from src.similarity_engine import recommend_courses
 from src.data_loader import load_processed_courses

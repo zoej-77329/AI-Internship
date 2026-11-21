@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# SQLite Database and temporary files
+data/pathfinder.db
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+*.db
+*.db-journal
+*.db-wal
+*.db-shm

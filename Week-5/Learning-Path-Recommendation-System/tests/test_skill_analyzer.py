@@ -1,3 +1,4 @@
+import pytest
 
 from src.skill_analyzer import (
     analyze_skills,
@@ -36,12 +37,8 @@ def test_skill_normalization():
 
 def test_invalid_career():
 
-    try:
+    with pytest.raises(ValueError, match="Career goal 'Unknown Career' was not found."):
         get_career_requirements("Unknown Career")
-    except ValueError:
-        return
-
-    assert False, "Expected ValueError for invalid career"
 
 
 def test_uncovered_skills():

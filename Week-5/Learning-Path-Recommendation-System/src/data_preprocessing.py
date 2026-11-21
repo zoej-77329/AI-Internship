@@ -1,7 +1,14 @@
-
+from pathlib import Path
 import pandas as pd
 
 from src.data_loader import load_courses, load_career_skills
+from src.utils import normalize_skill, CANONICAL_SKILLS
+
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+PROCESSED_DATA_DIR = PROJECT_DIR / "data" / "processed"
+
+# Backward compatibility alias
+SKILL_ALIASES = CANONICAL_SKILLS
 
 
 def explore_datasets():
@@ -45,10 +52,6 @@ def explore_datasets():
 
     print("\nDuplicate Rows:")
     print(careers.duplicated().sum())
-
-
-if __name__ == "__main__":
-    explore_datasets()
 
 
 def clean_courses(courses):
@@ -175,31 +178,6 @@ def clean_careers(careers):
     return careers
 
 
-SKILL_ALIASES = {
-    "ml": "Machine Learning",
-    "machine learning": "Machine Learning",
-    "ai": "Artificial Intelligence",
-    "js": "JavaScript",
-    "javascript": "JavaScript",
-    "ci/cd": "CI CD",
-    "cicd": "CI CD",
-    "tcp/ip": "TCP IP",
-    "object oriented programming": "OOP"
-}
-
-
-def normalize_skill(skill):
-
-    skill = skill.strip()
-
-    normalized = SKILL_ALIASES.get(
-        skill.lower(),
-        skill
-    )
-
-    return normalized
-
-
 def normalize_skill_column(data, column):
 
     data = data.copy()
@@ -218,13 +196,6 @@ def normalize_skill_column(data, column):
     data[column] = data[column].apply(normalize_list)
 
     return data
-
-
-from pathlib import Path
-
-PROJECT_DIR = Path(__file__).resolve().parent.parent
-
-PROCESSED_DATA_DIR = PROJECT_DIR / "data" / "processed"
 
 
 def prepare_datasets():
@@ -275,9 +246,6 @@ def prepare_datasets():
     print("career_skills_cleaned.csv")
 
 
-if __name__ == "__main__":
-    prepare_datasets()
-    
 def validate_datasets():
 
     courses_path = PROCESSED_DATA_DIR / "courses_cleaned.csv"
@@ -309,5 +277,6 @@ def validate_datasets():
 
 
 if __name__ == "__main__":
+    explore_datasets()
     prepare_datasets()
     validate_datasets()
