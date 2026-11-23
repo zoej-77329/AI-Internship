@@ -1,0 +1,147 @@
+
+[
+  {
+    "id": 1,
+    "category": "Attendance",
+    "question": "How do I report my absence?",
+    "answer": "Inform your supervisor through the approved communication channel and follow the organization's attendance procedure."
+  },
+  {
+    "id": 2,
+    "category": "Attendance",
+    "question": "What should I do if I am late?",
+    "answer": "Notify your supervisor as soon as possible and explain the reason for your delay."
+  },
+  {
+    "id": 3,
+    "category": "Attendance",
+    "question": "How can I check my attendance record?",
+    "answer": "Contact your internship coordinator or supervisor to confirm your recorded attendance."
+  },
+  {
+    "id": 4,
+    "category": "Attendance",
+    "question": "What if I have an internet connection problem during remote work?",
+    "answer": "Inform your supervisor about the connectivity issue and provide an update when your connection is restored."
+  },
+  {
+    "id": 5,
+    "category": "Internship Tasks",
+    "question": "Where can I find my assigned tasks?",
+    "answer": "Check your assigned project documentation, task management platform, or instructions shared by your supervisor."
+  },
+  {
+    "id": 6,
+    "category": "Internship Tasks",
+    "question": "What should I do if I do not understand a task?",
+    "answer": "Review the task requirements and ask your supervisor for clarification before proceeding."
+  },
+  {
+    "id": 7,
+    "category": "Internship Tasks",
+    "question": "How should I submit completed tasks?",
+    "answer": "Submit your work through the designated platform or repository according to your supervisor's instructions."
+  },
+  {
+    "id": 8,
+    "category": "Internship Tasks",
+    "question": "Can I ask for help with a technical problem?",
+    "answer": "Yes. Explain the problem, share relevant error messages, and contact your supervisor or assigned team member."
+  },
+  {
+    "id": 9,
+    "category": "Weekly Reports",
+    "question": "What is a weekly internship report?",
+    "answer": "A weekly report summarizes the tasks completed, technologies used, skills learned, and progress made during the week."
+  },
+  {
+    "id": 10,
+    "category": "Weekly Reports",
+    "question": "What should I include in my weekly report?",
+    "answer": "Include daily activities, completed tasks, tools and technologies, achievements, challenges, and planned work."
+  },
+  {
+    "id": 11,
+    "category": "Weekly Reports",
+    "question": "How do I submit my weekly report?",
+    "answer": "Complete the required report template and submit it through the communication channel specified by your supervisor."
+  },
+  {
+    "id": 12,
+    "category": "Weekly Reports",
+    "question": "What if I miss a weekly report submission?",
+    "answer": "Contact your supervisor, explain the delay, and ask for instructions on submitting the pending report."
+  },
+  {
+    "id": 13,
+    "category": "Project Submission",
+    "question": "How should I submit my internship project?",
+    "answer": "Prepare the project files, source code, documentation, and other required deliverables according to the submission instructions."
+  },
+  {
+    "id": 14,
+    "category": "Project Submission",
+    "question": "Should I upload my source code to GitHub?",
+    "answer": "Use the repository specified or approved by your supervisor and follow the organization's code-sharing guidelines."
+  },
+  {
+    "id": 15,
+    "category": "Project Submission",
+    "question": "What should project documentation contain?",
+    "answer": "Documentation should explain the project objective, technologies, architecture, setup instructions, features, and testing."
+  },
+  {
+    "id": 16,
+    "category": "Project Submission",
+    "question": "How can I demonstrate my completed project?",
+    "answer": "Prepare a working demonstration, explain the main features, and show the project results to your supervisor."
+  },
+  {
+    "id": 17,
+    "category": "Technical Support",
+    "question": "What should I do if my project is not running?",
+    "answer": "Check the error messages, dependencies, configuration, and application logs. Ask your technical supervisor if the issue continues."
+  },
+  {
+    "id": 18,
+    "category": "Technical Support",
+    "question": "How do I resolve a Python package installation error?",
+    "answer": "Check your Python environment, package version, internet connection, and installation command before retrying."
+  },
+  {
+    "id": 19,
+    "category": "Technical Support",
+    "question": "Where can I report a software bug?",
+    "answer": "Document the issue with reproduction steps and error details, then report it through the designated issue tracker or supervisor."
+  },
+  {
+    "id": 20,
+    "category": "Technical Support",
+    "question": "What should I do if Git gives an error?",
+    "answer": "Review the Git error message, check your repository status and configuration, and consult your team if necessary."
+  },
+  {
+    "id": 21,
+    "category": "Internship Guidelines",
+    "question": "Who should I contact for internship-related questions?",
+    "answer": "Contact your assigned internship supervisor or coordinator for guidance."
+  },
+  {
+    "id": 22,
+    "category": "Internship Guidelines",
+    "question": "What skills should I develop during my internship?",
+    "answer": "Focus on technical skills, problem-solving, communication, teamwork, and practical project experience."
+  },
+  {
+    "id": 23,
+    "category": "Internship Guidelines",
+    "question": "How can I track my internship progress?",
+    "answer": "Maintain weekly reports, document completed tasks, record skills learned, and review your progress with your supervisor."
+  },
+  {
+    "id": 24,
+    "category": "Internship Guidelines",
+    "question": "What should I do if I need clarification about internship rules?",
+    "answer": "Consult your official internship guidelines or contact your internship coordinator for accurate information."
+  }
+]
