@@ -1,56 +1,35 @@
+# AI Internship 
 
-# AI Chatbot for Internship Support
+This repository documents my learning and practical work completed during my AI internship.
 
-An NLP-powered chatbot designed to automate internship
-support by answering intern queries using FAQ documents
-and historical support tickets.
+## Weekly Progress
 
-## Project Description
+### Week 1
+- Organization familiarization
+- Python fundamentals
+- Object-Oriented Programming
+- Virtual environments and package management
+- NumPy fundamentals
+- Pandas fundamentals
+- Cozy Garden Simulator
 
-This project uses Natural Language Processing and
-semantic search to understand intern questions and
-retrieve relevant answers from a knowledge base.
+### Week 2
+Coming soon.
 
-## Features
+### Week 3
+Coming soon.
 
-- Natural language query understanding
-- FAQ-based question answering
-- Historical support-ticket retrieval
-- Semantic similarity search
-- Automated responses
-- Fallback handling
-- Interactive chatbot interface
+### Week 4
+Coming soon.
 
-## Technologies
+### Week 5
+Coming soon.
 
-- Python
-- Hugging Face Transformers
-- Sentence Transformers
-- FAISS
-- Pandas
-- FastAPI
-- Streamlit
-- Pytest
+### Week 6
+Coming soon.
 
-## Project Structure
+### Week 7
+Coming soon.
 
-- data: Raw and processed datasets
-- notebooks: NLP experiments
-- src: Core application modules
-- backend: API implementation
-- frontend: Chatbot interface
-- models: Model storage
-- tests: Automated tests
-- docs: Project documentation
-
-## Development Roadmap
-
-Week 6: Data preparation and NLP foundation.
-
-Week 7: Chatbot engine and backend development.
-
-Week 8: Frontend integration, testing and documentation.
-
-## Status
-
-Week 6 - Project setup and architecture.
+### Week 8
+Coming soon.

@@ -1,21 +1,47 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
 # Virtual environment
 .venv/
 venv/
 env/
 
-# Python cache
-__pycache__/
-*.py[cod]
+# IDE
+.vscode/
+.idea/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# VS Code
-.vscode/
-
 # Environment variables
 .env
+.env.*
+!.env.example
 
-# OS files
+# Machine learning models
+models/*
+!models/.gitkeep
+
+# Vector database
+vector_db/*
+!vector_db/.gitkeep
+
+# Generated data
+data/processed/*
+!data/processed/.gitkeep
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
 .DS_Store
 Thumbs.db
