@@ -1,0 +1,31 @@
+ticket_id,category,query,resolution,status
+TKT001,Attendance,How do I report an absence?,Inform your supervisor through the approved communication channel.,Resolved
+TKT002,Attendance,What should I do if I arrive late?,Notify your supervisor and explain the reason for the delay.,Resolved
+TKT003,Attendance,My internet stopped working during remote work,Inform your supervisor and provide an update after connectivity is restored.,Resolved
+TKT004,Attendance,How can I check my attendance record?,Contact your internship coordinator to confirm your attendance.,Resolved
+TKT005,Attendance,Can I request leave during my internship?,Contact your supervisor and follow the official leave procedure.,Resolved
+TKT006,Internship Tasks,Where can I find my assigned tasks?,Check the project documentation or task management platform.,Resolved
+TKT007,Internship Tasks,I do not understand my assigned task,Review the requirements and ask your supervisor for clarification.,Resolved
+TKT008,Internship Tasks,How do I submit my completed work?,Submit your work through the designated platform or repository.,Resolved
+TKT009,Internship Tasks,I am unable to complete a task on time,Inform your supervisor about the delay and explain the issue.,Resolved
+TKT010,Internship Tasks,Can I ask a teammate for technical help?,Contact your assigned team member or supervisor for assistance.,Resolved
+TKT011,Weekly Reports,What should I write in my weekly report?,Include completed tasks technologies used achievements and challenges.,Resolved
+TKT012,Weekly Reports,Where can I get the weekly report template?,Request the official template from your internship coordinator.,Resolved
+TKT013,Weekly Reports,I missed my weekly report deadline,Inform your supervisor and ask how to submit the pending report.,Open
+TKT014,Weekly Reports,Should I include daily activities in my report?,Yes include a brief summary of your daily internship activities.,Resolved
+TKT015,Weekly Reports,How do I describe the tools I used?,Mention the tools and technologies used for each completed task.,Resolved
+TKT016,Project Submission,How should I submit my final project?,Submit the source code and required documentation through the approved channel.,Resolved
+TKT017,Project Submission,Do I need to upload my code to GitHub?,Use the repository approved by your supervisor and follow sharing guidelines.,Resolved
+TKT018,Project Submission,What should project documentation include?,Include objectives technologies architecture setup and testing details.,Resolved
+TKT019,Project Submission,How can I prepare a project demonstration?,Test the application and prepare an explanation of its main features.,Resolved
+TKT020,Project Submission,My project submission is incomplete,Review the submission requirements and complete the missing deliverables.,Open
+TKT021,Technical Support,My Python application is not running,Check the error message dependencies and Python environment.,Resolved
+TKT022,Technical Support,I am getting a package installation error,Verify your Python version and virtual environment before reinstalling the package.,Resolved
+TKT023,Technical Support,Git is showing an error during commit,Check repository status and review the error message before retrying.,Resolved
+TKT024,Technical Support,My API request is returning an error,Check the API endpoint request format and server logs.,Resolved
+TKT025,Technical Support,My application cannot connect to the database,Verify database credentials connection settings and server availability.,Open
+TKT026,Internship Guidelines,Who should I contact for internship guidance?,Contact your assigned internship supervisor or coordinator.,Resolved
+TKT027,Internship Guidelines,How can I track my internship progress?,Maintain weekly reports and document completed tasks and skills.,Resolved
+TKT028,Internship Guidelines,What skills should I develop during my internship?,Focus on technical knowledge communication and problem-solving.,Resolved
+TKT029,Internship Guidelines,Where can I find internship guidelines?,Refer to the official internship documents provided by your organization.,Resolved
+TKT030,Internship Guidelines,What should I do if I have a project-related concern?,Discuss the concern with your assigned supervisor.,Resolved
